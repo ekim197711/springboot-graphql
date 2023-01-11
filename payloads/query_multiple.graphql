@@ -1,0 +1,8 @@
+query {
+    greeting(name: "Susan")
+    spaceship(id: 20000){
+        fuel
+        destination
+        captain
+    }
+}

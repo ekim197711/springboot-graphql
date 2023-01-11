@@ -1,0 +1,3 @@
+{
+  "query": "query { greeting(name: \"Mike\") }"
+}

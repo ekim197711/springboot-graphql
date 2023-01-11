@@ -1,0 +1,36 @@
+""" Queries to run on the SpaceShips """
+type Query {
+    """ Greetings are most of times polite """
+    greeting(name: String! = "Susan"): String!
+    """ Get one spaceship (hardcoded) """
+    spaceship(id: ID!): SpaceShip
+    """ Not impl. yet """
+    spaceships(fuel: Int): SpaceShip
+}
+
+""" Space Ship Type """
+type SpaceShip {
+    """ Unique string id   """
+    id: ID!
+    """ SpaceShip model """
+    model: String!
+    """ Name of captain """
+    captain: String!
+    """ Fuel left """
+    fuel: Int!
+    """ Condition """
+    destination: Destination!
+}
+
+enum Destination {
+    """ Yes back again... Maybe drill some bases to avoid radiation """
+    MOON
+    """ Elon will prob. be there before us """
+    MARS
+    """ Big gas giant  """
+    JUPITER
+    """ Not the Disney character """
+    PLUTO
+    """ Far away.. """
+    ALPHACENTAURI
+}

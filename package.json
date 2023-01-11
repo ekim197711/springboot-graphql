@@ -1,0 +1,15 @@
+{
+  "name": "springboot-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "curl_graphql": "curl -v localhost:8080/graphql",
+    "curl_greetings": "curl -v -H \"Content-Type: application/json\" -d @payloads/query_greetings.json localhost:8080/graphql",
+    "curl_multiple": "curl -v -H \"Content-Type: application/json\" -d @payloads/query_multiple.json localhost:8080/graphql",
+    "curl_introspection": "curl -v -H \"Content-Type: application/json\" -d @payloads/query_introspection.json localhost:8080/graphql",
+    "curl_introspection_query": "curl -v -H \"Content-Type: application/json\" -d @payloads/query_introspection_query.json localhost:8080/graphql"
+  },
+  "author": "",
+  "license": "ISC"
+}

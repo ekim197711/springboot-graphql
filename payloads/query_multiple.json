@@ -1,0 +1,7 @@
+{
+  "query": "query { greeting(name: \"tis\") spaceship(id: 20000){ captain fuel destination model }}"
+}
+
+
+
+

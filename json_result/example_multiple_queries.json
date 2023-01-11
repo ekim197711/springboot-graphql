@@ -1,0 +1,20 @@
+{
+  "data": {
+    "__type": {
+      "fields": [
+        {
+          "name": "greeting",
+          "description": " Greetings are most of times polite "
+        },
+        {
+          "name": "spaceship",
+          "description": " Get one spaceship (hardcoded) "
+        },
+        {
+          "name": "spaceships",
+          "description": " Not impl. yet "
+        }
+      ]
+    }
+  }
+}
